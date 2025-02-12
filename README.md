@@ -54,9 +54,11 @@ The project uses MobileNetV2, a lightweight deep learning architecture suitable 
 ### 2. Feature Detection Process
 The feature detection pipeline consists of several key steps:
 
-a) **Image Preprocessing**
+a) **Image Preprocessing and Classification**
+
 - Images are resized to 224x224 pixels
 - Pixel values are normalized using MobileNet's preprocessing function
+- The image is then classified to generate the heatmap
 
 b) **Feature Visualization**
 - Implements Grad-CAM technique for visualizing important regions
