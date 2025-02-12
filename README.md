@@ -1,4 +1,4 @@
-# Zero Annotation Object Detection: Implementation on Fruits (In Progress)
+# Zero Annotation Object Detection: Implementation on Fruits (Still In Progress)
 
 ## Overview
 This project implements a fruit feature detection system using MobileNetV2 architecture. The system can identify and localize different types of fruits in images using advanced computer vision techniques including Grad-CAM (Gradient-weighted Class Activation Mapping) visualization and template matching.
